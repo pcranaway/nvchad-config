@@ -1,6 +1,6 @@
 return {
   ui = {
-    theme = "tokyonight"
+    theme = "ayu-dark"
   },
 
   plugins = {
