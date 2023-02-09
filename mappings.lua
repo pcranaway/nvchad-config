@@ -11,7 +11,9 @@ M.abc.n = {
 
   ["<leader>c"] = {
     function()
-      require("core.utils").close_buffer()
+
+        require("nvchad_ui.tabufline").close_buffer()
+      -- require("core.utils").tabuflineNext()
     end,
     "close buffer",
   },
