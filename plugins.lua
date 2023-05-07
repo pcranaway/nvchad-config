@@ -1,15 +1,22 @@
 return {
-  ["neovim/nvim-lspconfig"] = {
+  {
+    "neovim/nvim-lspconfig",
+    lazy = false,
     config = function()
       require "plugins.configs.lspconfig"
       require "custom.configs.lspconfig_conf"
     end,
   },
-  ["glepnir/lspsaga.nvim"] = {
+  {
+    "nvimdev/lspsaga.nvim",
+    lazy = false,
     config = function()
+
       local saga = require("lspsaga")
 
       saga.setup({})
+
+
     end,
   }
 }

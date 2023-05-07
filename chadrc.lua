@@ -1,11 +1,14 @@
-return {
-  ui = {
-    theme = "ayu-dark"
-  },
+local M = {}
 
-  plugins = {
-    user = require('custom.plugins')
-  },
-
-  mappings = require('custom.mappings')
+M.ui = {
+  theme = "bearded-arc"
 }
+
+M.plugins = "custom.plugins"
+
+M.mappings = require('custom.mappings')
+
+return M
+
+
+
