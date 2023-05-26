@@ -2,7 +2,7 @@ local on_attach = require("plugins.configs.lspconfig").on_attach
 local capabilities = require("plugins.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
-local servers = { "pyright", "gopls", "tsserver", "dockerls", "rust_analyzer", "clangd", "cmake" }
+local servers = { "pyright", "gopls", "tsserver", "dockerls", "rust_analyzer", "clangd", "cmake", "cssls" }
 
 capabilities.offsetEncoding = { "utf-16" }
 
